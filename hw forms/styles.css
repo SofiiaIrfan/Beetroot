@@ -1,0 +1,35 @@
+.form {
+    max-width: 450px;
+    background-color: rgb(226, 225, 225);
+    padding: 10px;
+}
+.form-line {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-bottom: 10px;
+}
+.non-grid {
+    display: block;
+}
+.button {
+    display: flex;	
+    justify-content: center;	
+}
+div>button {
+    text-align: center;
+    border: solid 1px;
+    margin-left: 20px;
+}
+.radio-div {
+    left: 90%; 
+    margin-left: 31%;
+    transform: none;
+    display:  block;
+    width: 220px;
+}
+#user-course {
+    width: 220px;
+}
+#user-address {
+    width: 210px;
+}
