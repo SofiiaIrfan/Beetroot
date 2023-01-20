@@ -1,0 +1,128 @@
+.body {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.header {
+    height: 80px;
+    text-align: center;
+
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.header-logo {
+    display: inline-block;
+    padding-top: 27.93px;
+    float: left;
+}
+.header-nav {
+    display: inline-block;
+    font-size: 0;
+    width: 352px;
+}
+.header-nav a{
+    display: inline-block;
+    padding-top: 26px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 28px;
+    color: #2F281E;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+}
+
+.header-nav a:last-child {
+    padding-right: 0;
+}
+.header-nav a:hover {
+    transform: scale(1.1);
+    color: #FF9900;
+  
+}
+.header-entry {
+    display: inline-block;
+    height: 46px;
+    box-sizing: border-box;
+    float: right;
+    margin-top: 15px;
+    
+    
+   
+}
+
+.header-button{
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+
+    background: #FF9900;
+    border-radius: 4px;
+    padding: 12px 24px;
+    border: 1px solid #FF9900;
+}
+
+.header-button:last-child {
+    margin-left: 32px;
+    float: right;
+  
+}
+
+.hero {
+    padding-top: 70px;
+    padding-bottom: 100px;
+    height: 495px;
+}
+.hero_info {
+    max-width: 41.6%;
+    margin-top: 172px;
+    float: left;
+}
+.hero-info-title {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 54px;
+    color: #2F281E;
+    padding-bottom: 30px;
+}
+.hero-info-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    padding-bottom: 20px;
+}
+.button {
+    box-sizing: border-box; 
+    height: 50px;
+    width: 180px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #FF9900;
+    text-decoration: none;
+    border-radius: 4px;
+    border-color: #FF9900;
+    border: none;
+}
+
+
+button:hover {
+    border: 1px solid #BCD0E5;
+    background-color: #FFFFFF;
+    color: #2F281E;
+}
+
+.hero-picture {
+    width: 53.6%;
+    height: 495px;
+    float: right;
+}
+.hero-picture img {
+    width: 100%;
+}
