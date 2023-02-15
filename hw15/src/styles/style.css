@@ -1,0 +1,274 @@
+*,
+*:before,
+*after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #545454;
+    margin: 0;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #1C1C1C;
+}
+
+p {
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.1px;
+    color: #969696;
+    padding-bottom: 20px;
+}
+
+a {
+    color: #545454;
+    transition: color ease-in-out 0.3s;  
+}
+
+.text-holder {
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.1px;
+    color: #969696;
+}
+
+.btn {
+    width: 100%;
+    background-color: #007bff;
+    border-radius: 6px;
+    border: 1px solid #E4E4E4;
+    color: #ffffff;
+    font-weight: 500;
+    text-align: center;
+    padding: 8px 10px;
+    margin-bottom: 22px;
+    cursor: pointer;
+  }
+
+
+.main {
+   background-color: #E5E5E5;
+}
+
+.main .container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.forms .container {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+}
+
+.forms {
+    padding: 55px 135px;
+}
+
+.form {
+    max-width: 570px;;
+    width: 100%;
+    padding: 35px 35px 16px 35px;
+    background-color: #fff;
+    border-radius: 6px;
+    margin-left: 30px;
+}
+
+.row {
+    display: flex;
+    gap: 12px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.form-item {
+    width: 100%;
+}
+
+.form-item .label {
+    display: block;
+    margin: 0 0 7px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.form-item .input {
+    padding: 7px 0;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.form-item .input:focus {
+    border: 1px solid #007bff;
+  }
+
+
+.radio-list {
+    display: flex;
+    gap: 21px;
+    list-style: none;
+    padding: 0;
+  }
+
+
+.custom-radio {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+.custom-radio input[type="radio"] {
+    position: absolute;
+    top: -1000vh;
+    left: -1000vw;
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+.custom-radio input[type="radio"]:checked + label:after {
+    opacity: 1;
+    visibility: visible;
+}
+.custom-radio input[type="radio"]:checked + label:before {
+    border-color: #007bff;
+    background-color: #007bff;
+  }
+.custom-radio .label {
+    display: block;
+    position: relative;
+    padding-left: 28px;
+    color: rgba(0, 0, 0, 0.7);
+  }
+.custom-radio .label:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #545454;
+    transition: border ease-in-out 0.2s;
+  }
+.custom-radio .label:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 7px;
+    transform: translateY(-50%);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 1;
+    visibility: hidden;
+    transition: all ease-in-out 0.2s;
+  }
+
+.terms {
+    border-bottom: 1px solid #E4E4E4;
+    text-align: center;
+}
+
+.terms a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.login-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.list-item {
+    padding-right: 20px;
+}
+
+.list-link {
+    text-decoration: none;
+    font-weight: 500;
+    color: #007BFF;
+}
+
+.list-link:hover {
+    color: #007BFF;
+}
+
+.img-holder {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.row .file-input {
+    position: fixed;
+    top: -1000vh;
+    left: -1000vw;
+}
+
+.file-label {
+    display: block;
+    position: relative;
+    background-color: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+    width: 136px;
+    height: 28px;
+    margin-bottom: 9px;
+}
+
+.file-label .icon {
+    position: absolute;
+    top: 50%;
+    right: 13px;
+    width: 12px;
+    height: 13px;
+    transform: translateY(-50%);
+    color: #969696;
+    border-radius: 2px;
+}
+
+.reset-holder {
+    padding-left: 10px;
+}
+
+.reset-holder button {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+}
+
+.reset-holder button .icon-trash {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: #969696; 
+}
+
+
+.update {
+    width: 30%;
+}
