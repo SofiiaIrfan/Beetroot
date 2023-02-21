@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+
+  
+  section {
+    box-shadow: 0px 5px 5px rgb(75 93 104 / 10%);
+    margin: 40px auto;
+    border-radius: 50px;
+    border: solid #9b69e247 3px;
+    padding: 20px;
+  }
+  .wrapper {
+    width: 80vw;
+    margin: auto;
+    padding: 20px 0px;
+  }
+  
+  h1 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 130%;
+    color: #f063b8;
+    text-align: center;
+    margin: 40px auto;
+  }
+  
+  h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 130%;
+    text-align: center;
+    color: #9c69e2;
+    text-transform: uppercase;
+  }
+  
+  .question {
+    background-color: #fde8f5;
+    border-radius: 50px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+  }
+  
+  .answer {
+    background: #f0faf9;
+    border-radius: 50px;
+    padding: 30px;
+    animation: none 800ms linear;
+    backface-visibility: hidden;
+  
+  }
+  
+  .answer p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #e269ac;
+  }
+  
+  p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+  }
+  
+  button {
+    width: 200px;
+    height: 60px;
+  
+    background: #e269ac;
+    border: 1px solid #9b69e257;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    border-radius: 30px;
+    color: white;
+    display: block;
+    margin: 10px;
+  }
+  
+  button:hover {
+    background-color: #9c69e2;
+  }
+  
+  button:active {
+    background-color: #7627e6;
+  }
+  
+  input {
+    padding: 10px 20px;
+    font-size: 30px;
+  
+    width: 210px;
+    height: 60px;
+  
+    background: #ffffff;
+    border: 1px solid #9c69e2;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    border-radius: 50px;
+    margin: 10px;
+  }
+  
+  input:focus {
+    border: #9c69e2 3px solid;
+  }
+  
+  .container {
+    width: 50vw;
+    height: 18px;
+    border: solid rgb(102 98 103 / 24%) 1px;
+    background: #acafac75;
+    overflow: hidden;
+    margin: auto;
+    border-radius: 10px;
+    animation-name: none;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    transition: all 1000ms;
+  }
+  
+
+  .pointer {
+    float: right;
+    background-color: white;
+    height: 100%;
+    width: 68%;
+    animation-name: default-luxury-growth;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition: all 1000ms;
+  }
+  
+  
+  #circleRadiusResult {
+    font-size: 40px;
+  }

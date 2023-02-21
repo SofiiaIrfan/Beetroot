@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Java script Intro</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <h1>Hi! Let's count!</h1>
+
+        <section>
+            <h2>Count circle area</h2>
+
+            <div class="question">
+                <p>Please, enter the radius </p>
+
+                <form name="userCircleForm" action="">
+                    <input type="number" name="radius" value="" id="circleRadiusInput">
+                </form>
+                <button id="circleRadiusButton">Click me</button>
+            </div>
+
+
+            <div class="answer">
+                <div>
+                    <p>The area of circle is...</p>
+                </div>
+                <div id="circleRadiusResult"></div>
+            </div>
+
+        </section>
+
+        <section>
+            <h2>Find out the speed</h2>
+
+            <div class="question">
+                <p>Enter the distance to the city you want to go:</p>
+                <input type="number" name="userDistanceInput" id="userDistanceInput">
+                <p>How many hours do you have?</p>
+                <input type="number" name="userTimeInput" id="userTimeInput">
+                <button id="startCounting">Count the speed</button>
+            </div>
+
+            <div class="answer" id="speedAnswer">
+                <div id="countedSpeedOutput">
+                    <p>The appropriate speed</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section>
+            <h2>Currency Exchange</h2>
+            <div class="question">
+                <div>
+                    <p>How many dollars do you have right now?</p>
+                </div>
+                <input type="number" name="userDollarInput" id="userDollarInput">
+                <button id="countUserDollars">Count money</button>
+            </div>
+
+            <div class="answer">
+                <div id="resultInEuro">
+                    <p id="summInEuro">Here you'll see how many EURO you have</p>
+                </div>
+            </div>
+
+        </section>
+
+        <script src="./script.js"></script>
+    </div>
+</body>
+
+</html>
