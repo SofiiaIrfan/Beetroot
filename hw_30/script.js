@@ -43,7 +43,6 @@ backwardDigit()
 
 function calculateIncome(){
     let user_deposit = +prompt("Enter your deposit");
-    // let percent_bank = +prompt("Enter percnet bank");
     let first_month = user_deposit * (5 / 100 / 12);
     let second_month = (user_deposit + first_month) * (5 / 100 / 12);
     console.log(`Amount of accrued charges ${first_month + second_month}`);
