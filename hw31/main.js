@@ -30,11 +30,11 @@ function guessGame() {
 }
 
 
-function multiplicationTableBuilder(min = 1, max = 10) {
+function multiplicationTableBuilder(min = 2, max = 9) {
     let row = "";
     let arr = [];
     for (let i = min; i <= max; i++) {
-      for (let j = min; j <= max; j++) {
+      for (let j = 1; j <= 10; j++) {
         row += `${i}*${j}=${+i * +j} `;
       }
   
