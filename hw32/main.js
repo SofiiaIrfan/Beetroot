@@ -15,7 +15,7 @@ const minValPerfect = +prompt('Perfect Numbers\nEnter min value');
 const maxValPerfect = +prompt('Perfect Numbers\nEnter max value');
 const checkForPerfect = (minValPerfect, maxValPerfect) => {
     for (let i = minValPerfect; i <= maxValPerfect; i++) {
-        if(isPerfect(i) === true){
+        if(isPerfect(i)){
             arr.push(i);
         }
     }
