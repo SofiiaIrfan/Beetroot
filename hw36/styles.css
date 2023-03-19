@@ -1,0 +1,25 @@
+.show{
+    margin-top: 20px;
+    border: solid 3px rgb(153, 99, 131);
+    height: 10vh;
+    width: 100%;
+}
+
+.hide{
+    opacity: 0;
+    width: 1px;
+    height: 1px;
+}
+
+table{
+    margin-top: 10px;
+    width: 100%;
+}
+
+thead *{
+    font-weight: 900;
+}
+
+td{
+    padding: 5px;
+}
